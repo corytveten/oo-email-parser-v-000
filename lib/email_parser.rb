@@ -7,11 +7,11 @@ class EmailParser
 
   def initialize(emails)
     @email = emails
-
   end
 
   def parse
-    emails.split("," || " ")
+    email_array = @email.split("," || " ")
+    email_array
   end
 
 end
